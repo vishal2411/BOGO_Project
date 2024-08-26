@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGO Offer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>YAY! It's BOGO</h1>
+        
+        <div class="offer-box" onclick="toggleDetails(this)">
+            <div class="header">
+                <span class="discount">30% Off</span>
+                <span class="offer-title">Buy 1 Get 2</span>
+                <span class="price" data-price="18">$18.00 USD</span>
+            </div>
+            <div class="details">
+                <div class="selectors">
+                    <label for="size1">Size:</label>
+                    <select id="size1">
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <label for="color1">Colour:</label>
+                    <select id="color1">
+                        <option>Black</option>
+                        <option>White</option>
+                        <option>Blue</option>
+                    </select>
+                    <button class="plus-btn" onclick="addToCart(this)">+</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="offer-box" onclick="toggleDetails(this)">
+            <div class="header">
+                <span class="discount">30% Off</span>
+                <span class="offer-title">Buy 2 Get 4</span>
+                <span class="price" data-price="24">$24.00 USD</span>
+                <span class="most-popular">Most Popular</span>
+            </div>
+            <div class="details">
+                <div class="selectors">
+                    <label for="size2">Size:</label>
+                    <select id="size2">
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <label for="color2">Colour:</label>
+                    <select id="color2">
+                        <option>Black</option>
+                        <option>White</option>
+                        <option>Blue</option>
+                    </select>
+                    <button class="plus-btn" onclick="addToCart(this)">+</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="offer-box" onclick="toggleDetails(this)">
+            <div class="header">
+                <span class="discount">10% Off</span>
+                <span class="offer-title">Buy 3 Get 6</span>
+                <span class="price" data-price="36"><span style="text-decoration: line-through;">$40.00</span> $36.00 USD</span>
+            </div>
+            <div class="details">
+                <div class="selectors">
+                    <label for="size3">Size:</label>
+                    <select id="size3">
+                        <option>S</option>
+                        <option>M</option>
+                        <option>L</option>
+                    </select>
+                    <label for="color3">Colour:</label>
+                    <select id="color3">
+                        <option>Black</option>
+                        <option>White</option>
+                        <option>Blue</option>
+                    </select>
+                    <button class="plus-btn" onclick="addToCart(this)">+</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="total">
+            <h3>Total: $<span id="totalAmount">0.00</span> USD</h3>
+        </div>
+    
+        <button class="add-to-cart">+ Add to Cart</button>
+    </div>
+      
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 340px;
+    border: 2px solid #E72E8D;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #FFF8FB;
+}
+
+h1 {
+    font-size: 18px;
+    color: #E72E8D;
+    margin-bottom: 20px;
+}
+
+.offer-box {
+    border: 1px solid #E72E8D;
+    margin: 15px 0;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #ffffff;
+}
+
+.offer-box:hover {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discount {
+    background-color: #FF6084;
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+.offer-title {
+    font-weight: bold;
+    color: #E72E8D;
+    font-size: 14px;
+    flex-grow: 1;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.price {
+    font-weight: bold;
+    color: #FF6084;
+    font-size: 16px;
+}
+
+.most-popular {
+    background-color: #FF6084;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.details {
+    margin-top: 10px;
+    text-align: left;
+    display: none; /* Hidden by default */
+}
+
+.selectors {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    flex-shrink: 0;
+}
+
+select {
+    padding: 5px;
+    border: 1px solid #E72E8D;
+    border-radius: 5px;
+    background-color: #FFF8FB;
+    font-size: 14px;
+}
+
+.plus-btn {
+    background-color: #FF6084;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.add-to-cart {
+    background-color: #FF6084;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #e63950;
+}
+
+.total {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #E72E8D;
+    font-weight: bold;
+    text-align: center;
+}
